@@ -1,0 +1,36 @@
+# ===================================================
+#
+# PLIK KONFIGURACYJNY - CREEPERCODE
+#
+# ====================================================
+
+messages:
+  color: "&7"
+  color-mark: "&6"
+  format: "&8[%M&lCreeperCode&r&8] %C{MESSAGE}"
+
+basic:
+  command-missing-permission: "%CNie posiadasz permisji aby uzyc tej komendy!"
+
+commands:
+  mymoney:
+    money: "%CPosiadasz: %M&l{MONEY}&r %Cmonet!"
+  amoney:
+    money: "%CGracz &l%M{NAME}&r %Cposiada %M&l{MONEY} &r%Cmonet!"
+    userNotFound: "%CNie znaleziono uzytkownika!"
+    set: "%CUstawiono monety graczu &l%M{NAME}"
+    add: "%CDodales monety graczu &l%M{NAME}"
+    remove: "%CUsunales monety graczu &l%M{NAME}"
+    gotadd: "%CGracz %M&l{NAME} &r%Cdodal ci %M&l{MONEY} &r&7money!"
+    gotremove: "%CGracz %M&l{NAME} &r%Cusunal ci %M&l{MONEY} &r&7money!"
+    got: "%CGracz %M&l{NAME} &r%Custawil ci %M&l{MONEY} &r%Cmonet!"
+    numeric: "%CArgument musi byc numeryczny!"
+    quantity: "%CMusisz podac ilosc monet!"
+    name: "%CPodaj nick gracza!"
+
+    usage:
+      - "%CPoprawne &l%MUzycie&r&8:"
+      - "%M/adminmoney &8(%Msprawdz&r&8) (%Mnick&r&8) &r&8- %Csprawdza monety gracza"
+      - "%M/adminmoney &8(%Mustaw&r&8) (%Mnick&r&8) (%Milosc&r&8) &r&8- %Custawia monety"
+      - "%M/adminmoney &8(%Mdodaj&r&8) (%Mnick&r&8) (%Milosc&r&8) &r&8- %Cdodaje monety"
+      - "%M/adminmoney &8(%Musun&r&8) (%Mnick&r&8) (%Milosc&r&8) &r&8- %Cusuwa monety"

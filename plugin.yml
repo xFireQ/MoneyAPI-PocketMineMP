@@ -1,0 +1,5 @@
+name: MoneyAPI
+main: MoneyAPI\Main
+api: 4.0.0
+author: fireq
+version: 1.0.1
